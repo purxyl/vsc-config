@@ -1,0 +1,75 @@
+// @dtztim/vsc-config
+// This file contains dtztim's settings that customize the behavior and appearance of Visual Studio Code.
+// 
+// For the source code of this configuration, see:
+// https://github.com/dtztim/vsc-config
+// 
+// For more information about the settings, see:
+// https://code.visualstudio.com/docs/getstarted/settings 
+
+{
+  // Built-in: Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  
+  // Built-in: Workbench
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.productIconTheme": "bongocat",
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  
+  // Built-in: Editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 20,
+  "editor.detectIndentation": false,
+  "editor.tabCompletion": "on",
+  "editor.trimAutoWhitespace": false,
+  "editor.mouseWheelZoom": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // Built-in: Files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.defaultLanguage": "txt",
+  
+  // Built-in: Breadcrumbs
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "last",
+
+  // Built-in: Git
+  "git.confirmSync": false,
+  
+  // Built-in: Terminal
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  
+  // Extension: Error Lens
+  "errorLens.codeLensOnClick": "none",
+  "errorLens.removeLinebreaks": false,
+
+  // Extension: Prettier
+  "prettier.singleQuote": true,
+  
+  // Extension: Live Preview
+  "livePreview.serverKeepAliveAfterEmbeddedPreviewClose": 0,
+  
+  // Language-specific settings
+  "[html]": { "editor.tabSize": 4 },
+  "[astro]": { "editor.tabSize": 4 }
+}
